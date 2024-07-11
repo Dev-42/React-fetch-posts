@@ -1,13 +1,9 @@
 import React from "react";
-const Post = () => {
+const Post = ({ title, body }) => {
   return (
     <div className="post">
-      <h1>
-        {/* Here show the title of the post  */}
-      </h1>
-      <h3>
-        {/* Here show the body of the post  */}
-      </h3>
+      <h1>{title}</h1>
+      <h3>{body}</h3>
     </div>
   );
 };
